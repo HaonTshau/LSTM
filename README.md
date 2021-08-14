@@ -1,4 +1,4 @@
-#tensorflow版本
+# tensorflow版本
 
 如果在tf2下使用了tf1的API。
 解决方式:
@@ -12,17 +12,28 @@ tf.disable_v2_behavior()
 import tensorflow as tf
 
 
-#数据采集：
+# 依赖库
+
+安装python的依赖库：
+python3.6
+tensorflow==1.3.0
+numpy==1.19.3
+pandas==1.1.4
+requests==2.24.0
+beautifulsoup4=4.7.1
+
+
+# 数据采集：
 collect_csv     :   爬取数据到csv，生成ssq.txt
 
 
 
 
 
-#数据清洗：
+# 数据清洗：
 process         :   处理文件ssq.txt,对数据进行清洗预览功能;
 
-模型创建（模型训练和生成）：
+# 模型创建（模型训练和生成）：
 LSTM_train      :   训练数据
 （通过修改status的值去训练哪个球的模型；事先这里七个球都训练好了，后续觉得哪个球的准确率不高，可以自行修改模型）
 模型预测：
@@ -33,14 +44,6 @@ LSTM_pre        :   模型预测
 
 
 
-
-安装python的依赖库：
-python3.6
-tensorflow==1.3.0
-numpy==1.19.3
-pandas==1.1.4
-requests==2.24.0
-beautifulsoup4=4.7.1
 
 
 如果实现财富自由，请酌情打赏一下作者，作者很穷的。
