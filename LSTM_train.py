@@ -9,10 +9,10 @@ import tensorflow.compat.v1 as tf
 tf.disable_v2_behavior()
 import matplotlib.pyplot as plt
 
-status = "蓝"
+status = "蓝"    #训练蓝球
 
 #####################################################上面调整参数
-if status =="红2":
+if status =="红1":
     statusname = "red1"
 elif status == "红2":
     statusname = "red2"
