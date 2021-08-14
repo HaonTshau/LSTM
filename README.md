@@ -1,5 +1,24 @@
+#tensorflow版本
+
+如果在tf2下使用了tf1的API。
+解决方式:
+使用
+
+import tensorflow.compat.v1 as tf
+tf.disable_v2_behavior()
+
+替换
+
+import tensorflow as tf
+
+
 #数据采集：
 collect_csv     :   爬取数据到csv，生成ssq.txt
+
+
+
+
+
 #数据清洗：
 process         :   处理文件ssq.txt,对数据进行清洗预览功能;
 
