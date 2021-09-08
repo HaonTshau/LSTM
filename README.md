@@ -13,14 +13,14 @@ import tensorflow as tf
 
 
 # 依赖库
-
-安装python的依赖库：
-python3.6
-tensorflow==1.3.0
-numpy==1.19.3
-pandas==1.1.4
-requests==2.24.0
-beautifulsoup4=4.7.1
+pip install -i https://pypi.tuna.tsinghua.edu.cn/simple
+安装python的依赖库： <br />
+- python3.7
+- tensorflow==2.0.0
+- numpy==1.19.3
+- pandas==1.1.4
+- requests==2.24.0
+- beautifulsoup4=4.7.1  (bs4)
 
 
 # 数据采集：
