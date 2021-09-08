@@ -12,10 +12,12 @@ tf.disable_v2_behavior()
 import tensorflow as tf
 
 
+# conda
+conda create -n lstm python=3.7
+
 # 依赖库
-pip install -i https://pypi.tuna.tsinghua.edu.cn/simple
 安装python的依赖库： <br />
-- python3.7
+pip install -i https://pypi.tuna.tsinghua.edu.cn/simple [package]
 - tensorflow==2.0.0
 - numpy==1.19.3
 - pandas==1.1.4
